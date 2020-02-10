@@ -1,0 +1,86 @@
+% \documentclass[11pt]{article} 12
+\documentclass[11pt]{article}
+\linespread{1.5}
+\usepackage{indentfirst}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{physics}
+\usepackage{float}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\usepackage[margin=1.in]{geometry}
+\usepackage{tocloft}
+\usepackage{subfig}
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{mathrsfs}
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage[labelfont=bf]{caption}
+\usepackage{xcolor}
+% \usepackage{floatrow}
+
+\numberwithin{figure}{section}
+
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill\hfill}
+\renewcommand{\cftloftitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+\newcommand{\uvec}{\boldsymbol{u}}
+\newcommand{\vgrad}{\boldsymbol{\nabla}}
+\newcommand{\omegavec}{\boldsymbol{\Omega}}
+\newcommand{\svec}{\boldsymbol{s}}
+\newcommand{\ekman}{\text{E}}
+\newcommand{\prandtl}{\text{Pr}}
+\newcommand{\rayleigh}{\text{Ra}}
+\newcommand{\Dscript}{\boldsymbol{\mathcal{D}}}
+
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace{1cm}
+\textbf{Fluid Notes}
+\vspace{0.25cm}
+\end{center}
+
+\end{titlepage}
+
+\newpage
+\pagenumbering{roman}
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\pagebreak
+
+\newpage
+
+\input figures.tex
+\pagenumbering{arabic}
+
+\input february.tex
+
+\clearpage
+\newpage
+
+{\footnotesize
+\bibliography{mybib}}
+
+\addcontentsline{toc}{section}{References}
+\nocite{*}
+\bibliography{plainnat}
+
+
+
+
+\end{document}

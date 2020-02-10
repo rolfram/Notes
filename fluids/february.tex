@@ -1,0 +1,48 @@
+\section{February}
+
+\subsection{Why do we scale against \ekman?}
+\kevek
+A question that arose during the presentation was why are we scaling the kinetic energy against $1/E$ and $1/E^2$? According to Nick's walkthrough, we first start by writing the momentum equation, 
+\begin{align}
+	\partial_t \uvec + \uvec \cdot \nabla \uvec = - \frac{\alpha T}{\ekman^2} \svec - \frac{1}{\ekman} \hat{z} \cross \uvec \dots. 
+\end{align}
+
+By first ignoring the $\partial_t \uvec$ term, we write out the units in brackets next to the terms in the momentum equation, 
+\begin{align}
+	\left[\frac{L^2}{\tau^2} \right] \uvec \cdot \nabla \uvec = - \left[L \right] \frac{\alpha T}{\ekman^2} \svec - \left[\frac{L}{\tau} \right] \frac{1}{\ekman} \hat{z} \cross \uvec \dots,  
+\end{align}
+
+we need to recall that the general equation for kinetic energy is given by, 
+\begin{align}
+	K = \frac{1}{2} m \uvec^2. 
+\end{align}
+
+Essentially, the advection term in the fluid momentum equation by factoring out the dimensions shows that its proportional to the velocity squared, therefore, 
+\begin{align}
+	\uvec \cdot \nabla \uvec \propto K \propto \frac{1}{\ekman^2} \svec - \frac{1}{\ekman} \hat{z} \cross \uvec \dots
+\end{align}
+
+\subsection{Why is $\nabla P$ zero for an axisymmetric model?}
+In the momentum equation we have a term, which represents the pressure in the system. The following is defined in its full spherical form as, 
+\begin{align}
+	\nabla P = \frac{\partial P}{\partial r} \hat{r} + \frac{1}{r} \frac{\partial P}{\partial \theta} \hat{\theta} + \frac{1}{r \sin{\theta}} \frac{\partial P}{\partial \phi} \hat{\phi}.
+\end{align}
+
+An argument that could be used in order to argue why its zero is that the model is invariant under rotation about the $z$-axis. Therefore, Pressure does not vary within the $\phi$ direction. Another logical reason in terms why pressure is zero in the azimuthal direction, has to do with its relation to temperature. According to the ideal gas law, 
+\begin{align}
+	P &\propto T, \\
+	\nabla P &\propto \nabla T.
+\end{align} 
+
+Now this makes a bit much more sense. Since the temperature only varies between the inner and outer shell, this means that the gradient is typically just in the radial direction. Of course because of the centrifgual and Coriolis affect cold fluid gets pushed at the equator while hot fluid gets pushed to the poles means that there is another temperature gradient in the $\theta$ direction.  
+
+
+\subsection{Conversion, spherical to cylindrical.}
+In order to create force balance in terms of cylindrical coordinates, we need to do the following transformation, 
+\begin{align}
+	F_s \hat{s} &= F_r \sin{\theta} \hat{r} + F_{\theta} \cos{\theta} \hat{\theta} \\
+	F_z \hat{z} &= F_r \cos{\theta} \hat{r} - F_{\theta} \sin{\theta} \hat{\theta}
+\end{align}
+
+
+\subsection{B-Stars, possible physical motivation?}
