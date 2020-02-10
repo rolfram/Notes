@@ -2,10 +2,46 @@
 
 \subsection{How do Tokamaks work and also fusion?}
 
+\subsection{The types of drifts.}
+The $E \cross B$ and polarization drift are described as, 
+\begin{align}
+	\bold{v}_{E \cross B} &= -\frac{1}{B} \nabla \phi \cross \hat{z}, \\
+	\bold{v}_{P} &= - \frac{1}{\omega_{ci} B} \frac{d}{dt} \nabla \phi. 
+\end{align}
+Where $d/dt$ is defined as, 
+\begin{align}
+	\frac{d}{dt} = \frac{\partial}{\partial t} - \frac{1}{B} (\nabla \phi \cross \hat{z}) \cdot \nabla + \dots
+\end{align}
+The $\dots$ refer to higher-order corrections. 
+
+
 \subsection{Hasegawa-Mima derivation and origins.}
+Drift waves and their nonlinear interactions are one of the most fundamental elementary processes in magnetized inhomogenous plasmas. The simplest model equation that includes a fundamental nonlinear process is known as the Charney-Hasegara-Mima equation. The advective nonlinearity (Lagrange nonlinearity) associated with $E \cross B$ motion plays a fundamental role in drift wave dynamics. This nonlinearity appears in the fluid description as well as in the \textcolor{blue}{Vlasov} description of plasmas.
+
+The simplest model equation is constructed for the inhomogenous (Opposite of homogenous, which means it is uniform without irregularities) slab plasma, which is magnetized by a strong magnetic field in the $z$-direction. There is also a density gradient in the $x$-direction. Plasma temperature is constant, and temperature pertubations are not considered. Ion temperature is assumed to be much smaller than that of electrons. The pertubations is manly propagating in the ($x,y$) plane, and has a small wave number in the direction of the magnetic field $k_z \ll k_{\perp}$. The small but finite $k_z$ is essential, so that the drift wave turulence is a quasi-two-dimensional turbulence. The electrostatic pertubation $\tilde{\phi}$ is considered. Under these specifications, the dynamical equation of plasmas is investigated and the nonlinear equation is deduced. 
+
+First, the electron response is considered. The thermal velocity is taken to be much faster than the phase velocity of waves, $v_{Te} \gg \omega/\abs{k_z}$, so that the pressure balance of electrons along the magnetic field line provides the Boltzmann response of electrons as, 
+\begin{align}
+	\frac{\tilde{n_e}}{n_0} = \frac{e \tilde{\phi}}{T_e},
+\end{align}
+where $n_0$ is the unpertrubed density and $T_e$ is the electron temperature. The ion dynamics is studied by employing the continuity equation, 
+\begin{align}
+	\frac{\partial }{\partial t} n_i + \nabla \cdot (n_i v_{\perp}) = 0,
+\end{align}
+and the equation of motion, 
+\begin{align}
+	m_i \frac{d}{d t} v_{\perp} = e (- \nabla \phi + v_{\perp} \cross B).
+\end{align}
+Ions are \textcolor{purple}{immobile} in the direction of the magnetic field line. Time scales are assumed to be much longer than the period of the ion cyclotron motion, and the equation of motion is solved by expansion with respect to $w_{ci}^{-1} d/dt$, where $w_{ci} = eB/m_i$ is an ion cyclotron frequency. 
+
+To be contiued \cite{diamond_itoh_itoh_2010}...
 
 \subsection{Work thus far with pseudo-spectral code.}
 
 \subsection{What is multiple scale perturbation?}
 
+\subsection{What is Vlasov description of plasmas?}
 
+\subsection{What is an inverse cascade?}
+
+\subsection{What is multiple-scale analysis?}
