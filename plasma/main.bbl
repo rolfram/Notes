@@ -1,0 +1,41 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Diamond et~al.(2010)Diamond, Itoh, and Itoh]{diamond_itoh_itoh_2010}
+Patrick~H. Diamond, Sanae-I. Itoh, and Kimitaka Itoh.
+\newblock \emph{Modern Plasma Physics}, volume~1.
+\newblock Cambridge University Press, 2010.
+\newblock \doi{10.1017/CBO9780511780875}.
+
+\bibitem[Engel et~al.(2019)Engel, Smith, and Parker]{Engel_2019}
+Alexander Engel, Graeme Smith, and Scott~E. Parker.
+\newblock Quantum algorithm for the vlasov equation.
+\newblock \emph{Physical Review A}, 100\penalty0 (6), Dec 2019.
+\newblock ISSN 2469-9934.
+\newblock \doi{10.1103/physreva.100.062315}.
+\newblock URL \url{http://dx.doi.org/10.1103/PhysRevA.100.062315}.
+
+\bibitem[Kundu et~al.(2016)Kundu, Cohen, and Dowling]{kundu}
+Pijush~K. Kundu, Ira~M. Cohen, and David~R. Dowling.
+\newblock \emph{Fluid Mechanics}.
+\newblock Elsevier, 2016.
+
+\bibitem[Low and Chuang(2017)]{PhysRevLett.118.010501}
+Guang~Hao Low and Isaac~L. Chuang.
+\newblock Optimal hamiltonian simulation by quantum signal processing.
+\newblock \emph{Phys. Rev. Lett.}, 118:\penalty0 010501, Jan 2017.
+\newblock \doi{10.1103/PhysRevLett.118.010501}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.118.010501}.
+
+\bibitem[Shaikh and Shukla(2007)]{PhysRevLett.99.125002}
+Dastgeer Shaikh and P.~K. Shukla.
+\newblock Fluid turbulence in quantum plasmas.
+\newblock \emph{Phys. Rev. Lett.}, 99:\penalty0 125002, Sep 2007.
+\newblock \doi{10.1103/PhysRevLett.99.125002}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.99.125002}.
+
+\end{thebibliography}
