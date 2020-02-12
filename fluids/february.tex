@@ -1,5 +1,13 @@
 \section{February}
 
+\begin{itemize}
+	\item Finish force balance cylinder interpolation.
+	\item Work on slides for presentation.
+	\item Start perturbation and Rayleigh cases. 
+
+\end{itemize}
+
+
 \subsection{Why do we scale against \ekman?}
 \kevek
 A question that arose during the presentation was why are we scaling the kinetic energy against $1/E$ and $1/E^2$? According to Nick's walkthrough, we first start by writing the momentum equation, 
@@ -40,9 +48,11 @@ Now this makes a bit much more sense. Since the temperature only varies between 
 \subsection{Conversion, spherical to cylindrical.}
 In order to create force balance in terms of cylindrical coordinates, we need to do the following transformation, 
 \begin{align}
-	F_s \hat{s} &= F_r \sin{\theta} \hat{r} + F_{\theta} \cos{\theta} \hat{\theta} \\
-	F_z \hat{z} &= F_r \cos{\theta} \hat{r} - F_{\theta} \sin{\theta} \hat{\theta}
+	F_s \hat{s} &= F_r \sin{\theta} \hat{r} + F_{\theta} \cos{\theta} \hat{\theta}, \\
+	F_z \hat{z} &= F_r \cos{\theta} \hat{r} - F_{\theta} \sin{\theta} \hat{\theta}.
 \end{align}
+The only thing I'm not sure about is how do I display this when there is clearly two different components? Maybe need to take the absolute value squared? 
 
+\subsection{Why is sulfur used for the plasma experiment at UCLA?}
 
 \subsection{B-Stars, possible physical motivation?}
