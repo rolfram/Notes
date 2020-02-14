@@ -9,4 +9,5 @@
 \contentsline {subsection}{\numberline {1.7}What is an inverse cascade?}{2}{subsection.1.7}% 
 \contentsline {subsection}{\numberline {1.8}What is multiple-scale analysis?}{2}{subsection.1.8}% 
 \contentsline {subsection}{\numberline {1.9}What is Landau damping?}{2}{subsection.1.9}% 
-\contentsline {section}{References}{3}{section*.1}% 
+\contentsline {subsection}{\numberline {1.10}What is Shear Stress?}{2}{subsection.1.10}% 
+\contentsline {section}{References}{4}{section*.2}% 
