@@ -3,5 +3,7 @@
 \contentsline {subsection}{\numberline {1.1}Why do we scale against \text {E}?}{1}{subsection.1.1}% 
 \contentsline {subsection}{\numberline {1.2}Why is $\nabla P$ zero for an axisymmetric model?}{2}{subsection.1.2}% 
 \contentsline {subsection}{\numberline {1.3}Conversion, spherical to cylindrical.}{2}{subsection.1.3}% 
-\contentsline {subsection}{\numberline {1.4}B-Stars, possible physical motivation?}{2}{subsection.1.4}% 
+\contentsline {subsection}{\numberline {1.4}Why is sulfur used for the plasma experiment at UCLA?}{2}{subsection.1.4}% 
+\contentsline {subsection}{\numberline {1.5}B-Stars, possible physical motivation?}{2}{subsection.1.5}% 
+\contentsline {subsection}{\numberline {1.6}What is linear stability analysis?}{2}{subsection.1.6}% 
 \contentsline {section}{References}{3}{section*.2}% 
