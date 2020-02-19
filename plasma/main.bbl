@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -64,5 +64,11 @@ Dastgeer Shaikh and P.~K. Shukla.
 \newblock \emph{Phys. Rev. Lett.}, 99:\penalty0 125002, Sep 2007.
 \newblock \doi{10.1103/PhysRevLett.99.125002}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.99.125002}.
+
+\bibitem[{Westbury} and {Henriksen}(1992)]{1992ApJ...388...64W}
+Catherine~F. {Westbury} and R.~N. {Henriksen}.
+\newblock {Turbulence in Cooling Flows}.
+\newblock \emph{\apj}, 388:\penalty0 64, Mar 1992.
+\newblock \doi{10.1086/171130}.
 
 \end{thebibliography}

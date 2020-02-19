@@ -10,6 +10,7 @@
 \contentsline {subsection}{\numberline {1.8}What is multiple-scale analysis?}{2}{subsection.1.8}% 
 \contentsline {subsection}{\numberline {1.9}What is Landau damping?}{2}{subsection.1.9}% 
 \contentsline {subsection}{\numberline {1.10}What is Shear Stress?}{2}{subsection.1.10}% 
-\contentsline {subsection}{\numberline {1.11}What is a thermal avalanche?}{3}{subsection.1.11}% 
-\contentsline {subsection}{\numberline {1.12}How does the D-11 Tokamak work at UCSD?}{3}{subsection.1.12}% 
-\contentsline {section}{References}{4}{section*.2}% 
+\contentsline {subsection}{\numberline {1.11}What is a thermal avalanche?}{4}{subsection.1.11}% 
+\contentsline {subsection}{\numberline {1.12}How does the D-11 Tokamak work at UCSD?}{4}{subsection.1.12}% 
+\contentsline {subsection}{\numberline {1.13}How does Turbuelnce affect fluid heat transport?}{4}{subsection.1.13}% 
+\contentsline {section}{References}{5}{section*.2}% 
