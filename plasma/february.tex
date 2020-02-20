@@ -39,6 +39,47 @@ To be continued \cite{diamond_itoh_itoh_2010}...
 \subsection{Work thus far with pseudo-spectral code.}
 
 \subsection{What is multiple scale perturbation?}
+Multiple-scale analysis comprises techniques used to construct uniformly valid approximations to the solutions of perturbation problems, both for small as well as large values of the independent variables. This is done by introducing fast-scale and slow-scale variables for an independent variable, and subsequently treating these variables, fast and slow, as if they are independent.
+
+Let's begin by constructing asymptotic expansions of periodic solutions of ODEs. The first example, Duffing's equation, is a Hamiltonian system with a family of periodic solutions. The second example, van der Pol's equation, has an isolated limit cycle. 
+
+\subsubsection{\emph{Duffing's} equation}
+Consider an undamped nonlinear oscillator described by Duffing's equation 
+\begin{align}
+	y''+y+ \epsilon y^3 = 0
+\end{align}
+where the prime denotes a dervative with respect to time t. We look for solutions $y(t,\epsilon)$ that satisfy the initial conditions
+\begin{align}
+	y(0,\epsilon) &= 1, \\
+	y'(0,\epsilon) &= 0.
+\end{align}
+We look for straightforward expansion of an asymptotic solution as $\epsilon \rightarrow 0$, 
+\begin{align}
+	y(t,\epsilon) = y_0(t) + \epsilon y_1(t) + O(\epsilon^2).
+\end{align}
+The leading-order perturbation equations are
+\begin{align}
+	y_0''+y_0 &= 0, \\
+	y_0(0) &= 1, \\
+	y_0'(0) &= 0,
+\end{align}
+with the solution
+\begin{align}
+	y_0(t) = \cos{t}.
+\end{align}
+The next-order perturbation equations are
+\begin{align}
+	y_1''+y_1+y_0^3 &= 0, \\
+	y_1(0) &= 0, \\
+	y_1'(0) &= 0, 
+\end{align}
+with the solution
+\begin{align}
+	y_1(t) = \frac{1}{32} \left[\cos{3t} - \cos{t} \right] - \frac{3}{8} t \sin{t}.
+\end{align}
+This solution contains a \textit{secular term} that grows linearly in $t$. As a result, the expansion is not uniformly valid in t, and breaks down when $t = O(\epsilon)$ and $\epsilon y_1$ is no longer a small correction to $y_0$.
+
+The solution is, in fact, a perodic function of $t$. The straightforward expansion breaks down because it does not account for the dependence of the period of the solution on $\epsilon$. 
 
 \subsection{What is Vlasov description of plasmas?}
 
