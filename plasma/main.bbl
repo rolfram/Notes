@@ -1,9 +1,19 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Connaughton et~al.(2015)Connaughton, Nazarenko, and
+  Quinn]{Connaughton_2015}
+Colm Connaughton, Sergey Nazarenko, and Brenda Quinn.
+\newblock Rossby and drift wave turbulence and zonal flows: The
+  charney–hasegawa–mima model and its extensions.
+\newblock \emph{Physics Reports}, 604:\penalty0 1–71, Dec 2015.
+\newblock ISSN 0370-1573.
+\newblock \doi{10.1016/j.physrep.2015.10.009}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.physrep.2015.10.009}.
 
 \bibitem[Diamond et~al.(2010)Diamond, Itoh, and Itoh]{diamond_itoh_itoh_2010}
 Patrick~H. Diamond, Sanae-I. Itoh, and Kimitaka Itoh.
@@ -62,6 +72,15 @@ Guang~Hao Low and Isaac~L. Chuang.
 \newblock \emph{Phys. Rev. Lett.}, 118:\penalty0 010501, Jan 2017.
 \newblock \doi{10.1103/PhysRevLett.118.010501}.
 \newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.118.010501}.
+
+\bibitem[Nazarenko and Quinn(2009)]{Nazarenko_2009}
+Sergey Nazarenko and Brenda Quinn.
+\newblock Triple cascade behavior in quasigeostrophic and drift turbulence and
+  generation of zonal jets.
+\newblock \emph{Physical Review Letters}, 103\penalty0 (11), Sep 2009.
+\newblock ISSN 1079-7114.
+\newblock \doi{10.1103/physrevlett.103.118501}.
+\newblock URL \url{http://dx.doi.org/10.1103/PhysRevLett.103.118501}.
 
 \bibitem[Shaikh and Shukla(2007)]{PhysRevLett.99.125002}
 Dastgeer Shaikh and P.~K. Shukla.

@@ -1,5 +1,10 @@
 \section{February}
 
+\begin{itemize}
+	\item Read about Cascades in Chapter 8 \cite{diamond_itoh_itoh_2010}.
+	\item Go through HM derivation by hand following notes.  
+\end{itemize}
+
 \subsection{How do Tokamaks work and also fusion?}
 For understanding this refer to \cite{dini2009overview}. Then write down thoughts here. 
 
@@ -33,7 +38,31 @@ and the equation of motion,
 \begin{align}
 	m_i \frac{d}{d t} v_{\perp} = e (- \nabla \phi + v_{\perp} \cross B).
 \end{align}
-Ions are \textcolor{purple}{immobile} in the direction of the magnetic field line. Time scales are assumed to be much longer than the period of the ion cyclotron motion, and the equation of motion is solved by expansion with respect to $w_{ci}^{-1} d/dt$, where $w_{ci} = eB/m_i$ is an ion cyclotron frequency. 
+Ions are \textcolor{purple}{immobile} in the direction of the magnetic field line. Time scales are assumed to be much longer than the period of the ion cyclotron motion, and the equation of motion is solved by expansion with respect to $w_{ci}^{-1} d/dt$, where $w_{ci} = eB/m_i$ is an ion cyclotron frequency. Here the velocity is defined as, 
+\begin{align}
+	v_{\perp} = -\frac{1}{B} \nabla \phi \cross \hat{z} - \frac{1}{w_{ci} B}\frac{d}{dt} \nabla \phi + \dots , 
+\end{align} 
+with, 
+\begin{align}
+	\frac{d}{dt} = \frac{\partial}{\partial t} - \frac{1}{B} (\nabla \phi \cross \hat{z}) \cdot \nabla + \cdots ,
+\end{align}
+
+In addition to the smallness parameter $w_{ci}^{-1} d/dt$, the normalized perturbation amplitude $e \tilde{\phi}/ T_e$ and the density gradient (normalized to the wavelength) $1/L_n k$ are also taken as smallness parameters. The ordering here is to assume that they are in the same order of magnitude, i.e.,
+\begin{align}
+	\frac{1}{w_{ci}} \abs{\frac{d}{dt}} \sim \frac{e \abs{\tilde{\phi}}}{T_e} \sim O \left(k^{-1} L_n^{-1} \right).
+\end{align}
+This assumption, $\tilde{n_e}/n_0 \sim O \left(k^{-1} L_n^{-1} \right)$, means that we consider that the turbulence amplitude is of the order of the mixing length estimate. With this ordering, the perpendicular velocity takes a form as, 
+\begin{align}
+	v_{\perp} = - \frac{1}{B} \nabla \phi \cross \hat{z} - \frac{1}{w_{ci} B} \left(\frac{\partial}{\partial t} - \frac{1}{B} (\nabla \phi \cross \hat{z} \cdot \nabla  \right) \nabla \phi,
+\end{align}
+where $\nabla$ indicated the dervative with respect to $(x,y)$. The mechanism is illustrated in Figure A1.2 in \cite{diamond_itoh_itoh_2010}. Consider there are two modes obliquely propagating. Owing to the electric perturbation of mode 1, ions are subject to the $E \cross B$ motion so that they drift along the equi-potential surface of mode 1. This $E \cross B$ motion induces a Doppler shift, so that the electric field of mode 2 has additional temporal oscillation. This temporal variation causes the polarization drift due to mode 2. Thus, this polarization drift turns to be a beat of two modes. Putting $n_i = n_0 + \tilde{n_i}$ into the continuity equation gives, 
+\begin{align}
+	\frac{\partial}{\partial t} \frac{\tilde{n_i}}{n_0} + v_{\perp} \cdot \left(\frac{\nabla n_0}{n_0} + \frac{\nabla \tilde{n_i}}{n_0} \right) + \left(1 + \frac{\tilde{n_i}}{n_0} \right) \nabla \cdot v_{\perp} = 0.
+\end{align}
+Now, the charge neutrality condition, 
+\begin{align}
+	\tilde{n_i} = \tilde{n_e}
+\end{align}
 
 To be continued \cite{diamond_itoh_itoh_2010}...
 
