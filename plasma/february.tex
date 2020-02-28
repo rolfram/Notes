@@ -63,8 +63,36 @@ Now, the charge neutrality condition,
 \begin{align}
 	\tilde{n_i} = \tilde{n_e}
 \end{align}
-
-To be continued \cite{diamond_itoh_itoh_2010}...
+is employed, so that $\tilde{n_i}/n_0$ in (11) is replaced by $e \tilde{\phi}/T_e$. Thus becomes, 
+\begin{align}
+\begin{split}
+	\frac{\partial}{\partial t} \frac{e \tilde{\phi}}{T_e} - \rho_s c_s \left(\frac{e \nabla \tilde{\phi}}{T_e} \cross \hat{z} \right) \cdot \left(\frac{\nabla n_0}{n_0} + \frac{e \nabla \tilde{\phi}}{T_e} \right) \\
+	 + \left(1 + \frac{e \tilde{\phi}}{T_e} \right) \nabla \cdot - \rho_s c_s \left(\frac{e \nabla \tilde{\phi}}{T_e} \cross \hat{z} \right) \\
+	 - \rho_s^2 \left(\frac{\partial}{\partial t} - \rho_s c_s \left(\frac{e \nabla \tilde{\phi}}{T_e} \cross \hat{z} \right) \cdot \nabla \right) \frac{e \nabla \tilde{\phi}}{T_e} = 0,
+\end{split}
+\end{align}
+where $c_s$ is the ion sound speed and $\rho_s$ is the ion cyclotron radius at sound speed. Several terms vanish due to being perpendicular to the $E \cross B$ drift and others because they are higher-order smallness terms. Thus, the equation turns out to be, 
+\begin{align}
+\begin{split}
+	\frac{\partial}{\partial t} \frac{e \tilde{\phi}}{T_e} + \rho_s c_s \left(\frac{\nabla n_0}{n_0} \cross \hat{z} \right) \cdot \frac{e \tilde{\phi}}{T_e} - \rho_s^2 \frac{\partial}{\partial t} \frac{e \nabla^2 \tilde{\phi}}{T_e} \\
+	+ \rho_s^3 c_s \nabla \cdot \left( \left(\frac{e \tilde{\phi}}{T_e} \cross \hat{z} \right) \cdot \nabla \right) \frac{e \nabla \tilde{\phi}}{T_e} = 0.
+\end{split}
+\end{align} 
+The second term is a linear term with the derivative in the direction of electron diamagnetic drift, and yields the drift frequency. The third term denotes the effect of the polarization drift of ions. The fourth term is the nonlinear coupling term, which is orginated by the combination of the $E \cross B$ drift by one mode and the polarization drift by another. With the normalization, 
+\begin{align}
+	\frac{\rho_s}{L_n} \omega_{ci} t &\rightarrow t, \\
+	\left(\frac{x}{\rho_s}, \frac{y}{\rho_s} \right) &\rightarrow (x,y), \\
+	\frac{L_n}{\rho_s} \frac{e \tilde{\phi}}{T_e} &\rightarrow \phi, 
+\end{align}
+by which $\phi$ takes the value of the order of unity, the equation is therefore rewritten as, 
+\begin{align}
+	\frac{\partial}{\partial t} \left(\phi - \nabla_{\perp}^2 \phi \right) + \nabla_y \phi - \nabla_{\perp} \phi \cross \hat{z} \cdot \nabla_{\perp} \nabla_{\perp} \phi = 0,
+\end{align}
+where the derivative on the $(x,y)$ plane is explicitly written. This equation is also written as, 
+\begin{align}
+	\partial_t \left(\phi - \nabla_{\perp}^2 \phi \right) + \nabla_y \phi - \left[\phi, \nabla_{\perp}^2 \phi \right] = 0.
+\end{align}
+The derivation was followed using instructions from, \cite{diamond_itoh_itoh_2010}. Read more with regards to the Fourier Decomposition. 
 
 \subsection{Work thus far with pseudo-spectral code.}
 

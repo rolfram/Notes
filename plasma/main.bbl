@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -33,6 +33,14 @@ Alexander Engel, Graeme Smith, and Scott~E. Parker.
 \newblock ISSN 2469-9934.
 \newblock \doi{10.1103/physreva.100.062315}.
 \newblock URL \url{http://dx.doi.org/10.1103/PhysRevA.100.062315}.
+
+\bibitem[Hasegawa and Mima(1978)]{doi:10.1063/1.862083}
+Akira Hasegawa and Kunioki Mima.
+\newblock Pseudo‐three‐dimensional turbulence in magnetized nonuniform
+  plasma.
+\newblock \emph{The Physics of Fluids}, 21\penalty0 (1):\penalty0 87--92, 1978.
+\newblock \doi{10.1063/1.862083}.
+\newblock URL \url{https://aip.scitation.org/doi/abs/10.1063/1.862083}.
 
 \bibitem[Holland and Diamond(2005)]{HOLLAND2005369}
 C.~Holland and P.H. Diamond.
